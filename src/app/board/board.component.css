@@ -1,0 +1,22 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-gap: 0px;
+}
+app-square{
+    border: 1px gray solid;
+    height: 200px;
+}
+button{
+    margin: 2rem 0rem;
+    padding: 5px;
+    background-color: rgb(85, 87, 202);
+    color: white;
+    border-radius: 5px;
+    transition: .3s;
+    border: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+button:hover{
+    transform: scale(1.1);
+}
